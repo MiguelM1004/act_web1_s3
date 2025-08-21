@@ -1,2 +1,7 @@
 // Ejercicio For 2: Patrón de Asteriscos
-// Implementa un programa que use for para crear un patrón de asteriscos en forma de pirámide de 10 niveles de altura.
+for (let i = 1; i <= 5; i++) {
+  console.log("*".repeat(i));
+}
+for (let i = 4; i >= 1; i--) {
+  console.log("*".repeat(i));
+}

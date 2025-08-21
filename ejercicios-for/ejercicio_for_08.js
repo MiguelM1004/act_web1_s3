@@ -1,3 +1,12 @@
 // Ejercicio For 8: Contador de Caracteres
-// Desarrolla un programa que use un ciclo for para contar la frecuencia de cada carácter en una cadena de texto. 
-// Muestra los resultados ordenados alfabéticamente.
+let frase = "Este es un ejemplo de conteo de vocales";
+let vocales = { a: 0, e: 0, i: 0, o: 0, u: 0 };
+
+for (let letra of frase.toLowerCase()) {
+  if (vocales.hasOwnProperty(letra)) {
+    vocales[letra]++;
+  }
+}
+
+console.log("Frase:", frase);
+console.log("Conteo de vocales:", vocales);

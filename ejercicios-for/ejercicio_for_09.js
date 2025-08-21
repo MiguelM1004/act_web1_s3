@@ -1,3 +1,11 @@
 // Ejercicio For 9: Simulador de Dados
-// Crea un simulador que use un ciclo for para lanzar dos dados 1000 veces. 
-// Calcula y muestra la frecuencia de cada suma posible (2-12) y determina cuál es la más común.
+let suma = 0;
+let valor = 2;
+
+for (let i = 1; i <= 10; i++) {
+  console.log(valor);
+  suma += valor;
+  valor *= 2;
+}
+
+console.log("La suma total es:", suma);

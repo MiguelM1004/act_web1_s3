@@ -1,3 +1,7 @@
 // Ejercicio While 1: Contador de Números
-// Crea un programa que use un ciclo while para contar del 1 al 50, 
-// pero que solo muestre los números divisibles por 3 y 5.
+let numero = 20;
+while (numero >= 1) {
+  console.log(numero);
+  numero--;
+}
+console.log("¡Vamos!");
